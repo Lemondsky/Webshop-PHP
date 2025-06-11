@@ -10,7 +10,6 @@ if (isset($_SESSION['benutzer_id'])) { // Wenn die Session-Variable gesetzt ist
 // Die Datenbankverbindung einbinden
 // __ DIR__ gibt den Pfad zum aktuellen Verzeichnis zurück, in dem die Datei liegt
 require_once __DIR__ . '/db_connect.php';
-include '../db/functions.sql'; // Funktionen für die Datenbankabfragen einbinden
 // Variable für Fehlermeldungen anlegen
 $fehler = '';
 
