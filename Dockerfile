@@ -1,5 +1,5 @@
 # Verwende ein offizielles PHP-Image mit Apache
-FROM php:8.1-apache
+FROM php:8.3-apache
 
 # Arbeitsverzeichnis im Container setzen
 WORKDIR /var/www/html
